@@ -1,0 +1,88 @@
+.thumb {
+    margin-bottom: 2%;
+    margin-right: 1%;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    float: left;
+    min-width: 100px;
+}
+
+.thumb img.portrait {
+    width: 100%;
+    height: auto;
+}
+
+.thumb img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 100%;
+    width: auto;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
+.margin {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.pic {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+nav {
+    width:100%;
+}
+
+#dobavljac {
+    width: 100%;
+}
+
+
+#fashion > div > p {
+    font-size: 12pt;
+    color: white;
+    text-align: justify;
+}
+
+#gerry > div > p {
+    font-size: 12pt;
+    color: white;
+    text-align: justify;
+}
+
+#gerry >div > h1 {
+    color: white;
+}
+
+#fashion >div > h1 {
+    color: white;
+}
+
+#fashion {
+    background-color: #263248;
+}
+
+#gerry {
+    background-color: #7e8aa2;
+}
+
+#kontakt {
+    background-color: #263248;
+}
+
+#kontakt >div > h1 {
+    color: white;
+}
+
+#radno {
+    background-color: #FF9800;
+}
+
+#kontakt > div > article {
+    color: white;
+}

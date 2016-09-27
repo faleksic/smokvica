@@ -1,0 +1,19 @@
+@media screen and (max-width: 438px) {
+    .thumb, #dobavljac {
+        margin: 0px;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 450px) and (max-width: 648px){
+    .thumb {
+        width: 47%;
+    }
+}
+
+@media screen and (min-width: 655px) and (max-width: 991px){
+    .thumb {
+        width: 30%;
+    }
+}
+

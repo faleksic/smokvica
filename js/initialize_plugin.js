@@ -6,6 +6,7 @@ $(document).ready(function(){
 
     /* custom settings */
     $('.venobox_custom').venobox({
+        framewidth: "60%",
         numeratio: true,            // default: false
         infinigall: true            // default: false
     });
